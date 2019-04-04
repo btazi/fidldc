@@ -1,0 +1,130 @@
+/* Add here all your CSS customizations */
+#revolutionSlider > ul > li > div.slotholder > div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../img/slide1.png") !important;
+}
+
+.list-inline {
+  color: #ffffff;
+}
+
+/* .header-body { */
+/*   background: #ffffff !important; */
+/* } */
+
+html.sticky-header-active .header-body a {
+  color: #1d1d1d !important;
+}
+
+#header .header-nav-main nav > ul > li.open > a, #header .header-nav-main nav > ul > li:hover > a {
+  background: #d2322d;
+  color: #ffffff;
+}
+
+ul.plan-regular-list li {
+  padding: 3px 0;
+  border-top: none;
+  list-style-position: inside;
+  list-style-type: circle;
+  text-align: left;
+}
+
+.pricing-table .plan-ribbon.ribbon-optional {
+  background-image: -webkit-linear-gradient(top, #acc4ef, #80a5e6,);
+  background-image: linear-gradient(to bottom, #acc4ef, #80a5e6);
+  background-color: #80a5e6;
+}
+
+
+
+
+#footer {
+  margin-top:0;
+  padding-top: 0;
+
+}
+
+.contact p {
+  color:#fff;
+}
+
+#mainNav > li:hover a {
+  color: #ffffff !important;
+}
+
+.sort-destination.full-width .isotope-item {
+  width: 25%;
+}
+
+.aboutus-features h4 {
+  font-weight: bold;
+}
+
+.aboutus-features .feature-box.feature-box-style-2 .feature-box-info {
+  padding-left: 0 ;
+}
+
+.pricing-table li:first-of-type {
+  border-top: none;
+}
+
+
+section.section {
+  margin-top: 0px;
+}
+.home-intro {
+  margin-bottom: 0px;
+}
+#home-intro {
+  background-color: #3961ad;
+}
+
+
+
+
+.cnt {
+  background: #fff;
+  z-index: 2;
+  position: relative;
+  padding: 15px;
+}
+.cnt h4 {
+  color: #01267e !important;
+  font-weight: 600;
+  text-align: left;
+}
+.cnt li {
+  text-align: left;
+}
+.app .text-color-light {
+  font-size: 18px;
+}
+
+body, p {
+  color: #1d1d1d;
+  text-align: justify;
+}
+
+.list.list-icons li {
+  margin: 0;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+ul.portfolio-details .list-icons > li  {
+  padding-left: 15px;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media only screen and (max-width: 479px){ 
+
+  .hide{
+    display: block !important;
+  }
+}
+
+html:not(.sticky-header-active) #header.header-transparent .header-nav-main nav > ul > li:not(.active) > a {
+  color: #1d1d1d;
+}
