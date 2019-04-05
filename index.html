@@ -218,7 +218,7 @@ section.section {
                                                         </a>
 													</li>
 													<li>
-														<a class="b24-web-form-popup-btn-7" href="#">
+														<a class="" href="#invitation">
                                                           Télécharger mon invitation
                                                         </a>
 													</li>
@@ -291,34 +291,78 @@ section.section {
                 <img class="img-responsive appear-animation" src="img/happy_student.png" alt="" data-appear-animation="fadeInUp">
               </div>
             </div>
+              <div id="invitation"></div>
           </div>
         </section>
 
+       
+      <section class="section section-primary mb-none"  style='padding-top: 0; background-color:#ecf0f1 !important' id="chiffresCles">
+        <div class="container" >
+          <div class="row" >
+            <div class="col-sm-12 alert alert-info alert-admin">
+              <h2 class="mb-1" style="color:#0d4b75;">Recevez votre <strong>Invitation</strong></h2>
+              <form class="form-horizontal form-bordered" method="POST" action="https://grc.etudiant.ma/pub/form.php?view=frame&amp;form_id=7&amp;widget_user_lang=fr&amp;sec=09n1jj&amp;r=1554445249019" id="invitationForm">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label class="col-md-3 control-label" for="inputDefault">Nom complet:</label>
+                        <div class="col-md-8">
+                          <input value="" class="form-control" type="text" name="DEAL_TITLE" id="DEAL_TITLE" placeholder="">
+                        </div>
+                      </div>
 
+                      <div class="form-group">
+                        <label class="col-md-3 control-label" for="inputDisabled">Numéro de téléphone:</label>
+                        <div class="col-md-8">
+                          <input value="" class="form-control" placeholder="0612345678" type="number" name="DEAL_UF_CRM_NUM" id="DEAL_UF_CRM_NUM" placeholder="" step="0.00001">
+                        </div>
+                      </div>
 
+                      <div class="form-group">
+                        <label class="col-md-3 control-label" for="inputReadOnly">Lycée/Etablissement de formation:</label>
+                        <div class="col-md-8">
+                          <input value="" class="form-control" type="text" name="DEAL_UF_CRM_5C7F9D6014DF1" id="DEAL_UF_CRM_5C7F9D6014DF1" placeholder="">	
+                        </div>
+                      </div>
+                    </div>
 
+                    <div class="col-sm-6">
 
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="inputHelpText">Ville:</label>
+                      <div class="col-md-8">
+                        <input value="" class="form-control" type="text" name="DEAL_UF_CRM_5C7F9D6020B38" id="DEAL_UF_CRM_5C7F9D6020B38" placeholder="">
+                      </div>
+                    </div>
 
-		 
-        <section class="section section-primary mb-none"  style='background-color:#ecf0f1 !important' id="chiffresCles">
-          <div class="container" >
-            <div class="row" >
-              <div class="col-md-12">
-                <h2 class="mb-1" style="color:#0d4b75;">Chiffres <strong> Clés </strong>  </h2>
-              </div>
-              <div class="col-lg-6">
-                <div class="embedresize">
-                  <div>
-              <iframe width="500" height="315" src="https://www.youtube.com/embed/DDDXuCjRbwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="inputRounded">Niveau:</label>
+                      <div class="col-md-8">
+                        <select class="form-control" name="DEAL_UF_CRM_1551800950" id="DEAL_UF_CRM_1551800950"><option value="">Pas sélectionné</option><option value="584">Bac</option><option value="585">BAC+1</option><option value="586">BAC+2</option><option value="587">BAC+3</option><option value="588">BAC+4</option><option value="589">BAC+5 et plus</option></select>														<b class="tooltip crm-webform-tooltip-bottom-right">Veuillez compléter tous les champs obligatoires.</b>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="inputFocus">Domaines désirés:</label>
+                      <div class="col-md-8">
+                        <select class="form-control" name="DEAL_UF_CRM_1551437325" id="DEAL_UF_CRM_1551437325"><option value="">Pas sélectionné</option><option value="57">Commerce, gestion, économie</option><option value="58">Sciences et Ingénierie</option><option value="59">Médecine et Santé</option><option value="60">Droit, lettres et Sc. humaines</option><option value="61">Arts et Communication</option></select>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="col-md-12" align="center"><button class="btn btn-lg btn-sm btn-primary" id="" style="width: 200px; font-size: 18px; margin-bottom: 5px;" type="submit">JE M'INSCRIS</button></div>
+
                   </div>
-                </div>
+                  <input type="hidden" name="from" value="http://forum.etudiant.ma/index.html"></form>
+              </form>
               </div>
-              <div class="col-lg-6" >
-
-
+              <div class="col-sm-12" >
                 <div class="content-grid content-grid-dashed mt-4 mb-4">
                  
                   <div class="row content-grid-row">
+                  <div class="col-sm-12">
+                  <h2 class="mb-1" style="color:#0d4b75;">Chiffres <strong>Clés</strong></h2>
+                  </div>
                     <div class="content-grid-item col-lg-6 col-xs-6 text-center py-4">
                       <div class="counters">
                         <div class="counter text-color-light" >
@@ -356,7 +400,6 @@ section.section {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           <div id="infosPratiques"></div>
@@ -583,6 +626,7 @@ section.section {
 
     </div>
     <!-- Vendor -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
     <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -617,15 +661,27 @@ ga('create', 'UA-12345678-1', 'auto');
 ga('send', 'pageview');
       </script>
       -->
-<script id="bx24_form_button" data-skip-moving="true">
-        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                if(w[b]['forms']) return;
-                var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://grc.etudiant.ma/bitrix/js/crm/form_loader.js','b24form');
+  <script>
+$("#invitationForm").submit(function(e) {
 
-        b24form({"id":"7","lang":"fr","sec":"09n1jj","type":"button","click":""});
-</script>
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+
+    var form = $(this);
+    var url = form.attr('action');
+
+    $.ajax({
+           type: "POST",
+           url: url,
+		   datatype: "jsonp",
+           data: form.serialize(), // serializes the form's elements.
+           complete: function(data)
+           {
+             $("#invitationForm").html("<h4 style='color: #0d4b75'>Le formulaire a bien été envoyé, vous allez recevoir d'ici peu un SMS contenant votre invitation.</h4>"); // show response from the php script.
+           }
+         });
+
+
+});
+  </script>
   </body>
 </html>
