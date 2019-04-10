@@ -187,6 +187,8 @@ section.section {
     </style>
   </head>
   <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2&appId=989464694433752&autoLogAppEvents=1"></script>
 <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 57, 'stickySetTop': '-57px', 'stickyChangeLogo': true}" style="min-height: 100px;">
 				<div class="header-body" style="top: 0px;">
 					<div class="header-container container">
@@ -313,27 +315,27 @@ section.section {
       <section class="section section-primary mb-none"  style='padding-top: 0; background-color:#ecf0f1 !important' id="chiffresCles">
         <div class="container" >
           <div class="row" >
-            <div class="col-sm-12 alert alert-info alert-admin">
+            <div class="col-sm-8 col-xs-12 alert alert-info alert-admin">
               <h2 class="mb-1" style="color:#0d4b75;">Recevez votre <strong>Invitation</strong></h2>
               <form class="form-horizontal form-bordered" method="POST" action="https://grc.etudiant.ma/pub/form.php?view=frame&amp;form_id=7&amp;widget_user_lang=fr&amp;sec=09n1jj&amp;r=1554445249019" id="invitationForm">
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <label class="col-md-3 control-label" for="inputDefault">Nom complet:</label>
+                        <label class="col-md-3 control-label" for="inputDefault">Nom:</label>
                         <div class="col-md-8">
                           <input value="" class="form-control" type="text" name="DEAL_TITLE" id="DEAL_TITLE" placeholder="">
                         </div>
                       </div>
 
                       <div class="form-group">
-                        <label class="col-md-3 control-label" for="inputDisabled">Numéro de téléphone:</label>
+                       <label class="col-md-3 control-label" for="inputDisabled">Téléphone:</label>
                         <div class="col-md-8">
                           <input value="" class="form-control" placeholder="0612345678" type="number" name="DEAL_UF_CRM_NUM" id="DEAL_UF_CRM_NUM" placeholder="" step="0.00001">
                         </div>
                       </div>
 
                       <div class="form-group">
-                        <label class="col-md-3 control-label" for="inputReadOnly">Lycée/Etablissement de formation:</label>
+                        <label class="col-md-3 control-label" for="inputReadOnly">Etablissement:</label>
                         <div class="col-md-8">
                           <input value="" class="form-control" type="text" name="DEAL_UF_CRM_5C7F9D6014DF1" id="DEAL_UF_CRM_5C7F9D6014DF1" placeholder="">	
                         </div>
@@ -357,8 +359,8 @@ section.section {
                     </div>
 
                     <div class="form-group">
-                      <label class="col-md-3 control-label" for="inputFocus">Domaines désirés:</label>
-                      <div class="col-md-8">
+                      <label class="col-md-3 control-label" for="inputFocus">Interessé par:</label>
+                      <div class="col-md-9">
                         <select class="form-control" name="DEAL_UF_CRM_1551437325" id="DEAL_UF_CRM_1551437325"><option value="">Pas sélectionné</option><option value="57">Commerce, gestion, économie</option><option value="58">Sciences et Ingénierie</option><option value="59">Médecine et Santé</option><option value="60">Droit, lettres et Sc. humaines</option><option value="61">Arts et Communication</option></select>
                       </div>
                     </div>
@@ -369,6 +371,15 @@ section.section {
                   </div>
                   <input type="hidden" name="from" value="http://forum.etudiant.ma/index.html"></form>
               </form>
+              </div>
+              <div class="col-sm-3 col-xs-12">
+                <div style="margin-top: 25px;"></div>
+                <iframe class="hidden-xs" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fetudiant.ma%2F&tabs=events&width=340&height=314&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=989464694433752" width="340" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <div class="embedresize hidden-sm hidden-md hidden-lg">
+                  <div>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fetudiant.ma%2F&tabs=events&width=450&height=314&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=989464694433752" width="340" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                  </div>
+                </div>
               </div>
               <div class="col-xs-12 col-sm-6" >
                 <div class="content-grid content-grid-dashed mt-4 mb-4">
