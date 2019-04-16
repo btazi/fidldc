@@ -711,7 +711,7 @@ $("#invitationForm").submit(function(e) {
            url: url,
 		   datatype: "jsonp",
            data: form.serialize(), // serializes the form's elements.
-           complete: function(data)
+           beforeSend: function(data)
            {
              $("#invitationForm").html("<h4 style='color: #0d4b75'>Le formulaire a bien été envoyé, vous allez recevoir un SMS contenant votre invitation dans un instant (max. 5 min).</h4>"); // show response from the php script.
            }
